@@ -175,7 +175,7 @@ class _CourseCardState extends State<CourseCard> {
     );
   }
 
-  // ✅ badges and meta same as before (keep them)
+
   Widget _badge(String text, Color bgColor, {Color textColor = Colors.white}) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 6, vertical: 3),
